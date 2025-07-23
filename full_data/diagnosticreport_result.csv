@@ -1,0 +1,4 @@
+id,diagnostic_report_id,template_id,result_code,result_display,result_system,result_system_name,result_value,result_unit,interpretation_code,interpretation_system,reference_range_text,reference_range_low,reference_range_high,reference_range_unit,status,effective_date,created_at
+observation-9001,cbc-panel-9000,2.16.840.1.113883.10.20.22.4.2,30313-1,HGB,2.16.840.1.113883.6.1,LOINC,10.20,g/dl,N,2.16.840.1.113883.5.83,12-16 g/dl,,,,completed,2012-08-10,2025-06-05 13:38:18.148076
+observation-9002,cbc-panel-9000,2.16.840.1.113883.10.20.22.4.2,33765-9,WBC,2.16.840.1.113883.6.1,LOINC,12.30,10+3/ul,H,2.16.840.1.113883.5.83,,4.30,10.80,10+3/ul,completed,2012-08-10,2025-06-05 13:38:18.148076
+observation-9003,cbc-panel-9000,2.16.840.1.113883.10.20.22.4.2,26515-7,Platelets [#/volume] in Blood,2.16.840.1.113883.6.1,LOINC,123.00,10+3/ul,L,2.16.840.1.113883.5.83,,150.00,350.00,10+3/ul,completed,2012-08-10,2025-06-05 13:38:18.148076

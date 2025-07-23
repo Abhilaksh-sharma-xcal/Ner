@@ -1,0 +1,102 @@
+[
+  {
+    "input": "Show me allergies for the patient",
+    "additional": "patient_id: 03c5df71-2c83-aa6e-283e-2fbe6cb3dee9",
+    "output": "Final response:
+
+There are no recorded allergies in the medical chart for this patient.
+
+[{'text':'no recorded allergies','label':'NEGATION','start':10,'end':30,'category':'MEDICAL','terminology':'SNOMEDCT','code':'137650007'}]",
+    "expected_sql": "SELECT EXISTS (SELECT FROM public.allergyintolerance WHERE id='03c5df71-2c83-aa6e-283e-2fbe6cb3dee9') AS patient_alleries_var;",
+    "expected_output": ""
+  },
+  {
+    "input": "Show me conditions for the patient",
+    "additional": "patient_id: 03c5df71-2c83-aa6e-283e-2fbe6cb3dee9",
+    "output": "Here are the documented conditions and significant findings for this patient: - Stress (multiple entries, including 2022-2025 and earlier years)
+- Severe anxiety (panic) (2013-2019)
+- Social isolation (2019-2021)
+- Acute bronchitis (June 2021)
+- Acute viral pharyngitis (January 2017)
+- Viral sinusitis (multiple episodes: Feb 2019, Dec 2021)
+- Victim of intimate partner abuse (2013-2016)
+- Medication review due (various periods, including currently as of 2025)
+- Employment and educational statuses (part-time, full-time employment; not in labor force; higher educationùthese provide social context to the health record)
+
+If you want details about any specific condition, such as dates or symptom descriptions, please let me know.
+
+[{'text':'Stress (finding)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'404684003'},
+{'text':'Severe anxiety (panic) (finding)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'80583007'},
+{'text':'Social isolation (finding)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'64441002'},
+{'text':'Acute bronchitis (disorder)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'64572001'},
+{'text':'Acute viral pharyngitis (disorder)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'195662009'},
+{'text':'Viral sinusitis (disorder)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'444814009'},
+{'text':'Victim of intimate partner abuse (finding)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'706893006'},
+{'text':'Medication review due (situation)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'314529007'},
+{'text':'Part-time employment (finding)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'138222003'},
+{'text':'Full-time employment (finding)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'138221005'},
+{'text':'Received higher education (finding)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'224302000'},
+{'text':'Not in labor force (finding)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'741062008'}
+]",
+    "expected_sql": "",
+    "expected_output": ""
+  },
+  {
+    "input": "What are the medications taken by the patient?",
+    "additional": "patient_id:  03c5df71-2c83-aa6e-283e-2fbe6cb3dee9",
+    "output": "I was unable to find any medication information for this patient in the available records. The system doesnÆt currently allow access to medication history. If you need information about this patientÆs medications, please contact your healthcare provider or pharmacy for further assistance.
+
+[{'text':'medication information','label':'OTHER','category':'NO_DATA','terminology':'N/A','code':'N/A'}]",
+    "expected_sql": "",
+    "expected_output": ""
+  },
+  {
+    "input": "Show me all patient encounters?",
+    "additional": "patient_id: 03c5df71-2c83-aa6e-283e-2fbe6cb3dee9",
+    "output": "Here are all documented encounters for this patient:
+
+1. Mar 2, 2012 û Wellness exam
+2. Mar 8, 2013 û Wellness exam
+3. Mar 11, 2016 û Wellness exam
+4. Jan 8, 2017 û Symptom-related visit (ambulatory)
+5. Feb 6, 2019 û Symptom-related visit (ambulatory)
+6. Mar 15, 2019 û Wellness exam
+7. Jun 15, 2021 û Symptom-related visit (ambulatory)
+8. Jun 25, 2021 û Outpatient check-up
+9. Dec 7, 2021 û Symptom-related visit (ambulatory)
+10. Mar 18, 2022 û Wellness exam
+11. Mar 21, 2025 û Wellness exam
+
+If you need details about a specific encounter, such as diagnoses or procedures, just let me know.
+
+[{'entity':'encounter','type':'Wellness','date':'2012-03-02','code':'162673000'},{'entity':'encounter','type':'Wellness','date':'2013-03-08','code':'162673000'},{'entity':'encounter','type':'Wellness','date':'2016-03-11','code':'162673000'},{'entity':'encounter','type':'Ambulatory','date':'2017-01-08','code':'185345009'},{'entity':'encounter','type':'Ambulatory','date':'2019-02-06','code':'185345009'},{'entity':'encounter','type':'Wellness','date':'2019-03-15','code':'162673000'},{'entity':'encounter','type':'Ambulatory','date':'2021-06-15','code':'185345009'},{'entity':'encounter','type':'Outpatient','date':'2021-06-25','code':'185349003'},{'entity':'encounter','type':'Ambulatory','date':'2021-12-07','code':'185345009'},{'entity':'encounter','type':'Wellness','date':'2022-03-18','code':'162673000'},{'entity':'encounter','type':'Wellness','date':'2025-03-21','code':'162673000'}]
+",
+    "expected_sql": "",
+    "expected_output": ""
+},
+  {
+    "input": "Give me a thorough and detailed summary of the patient. Include all their encounters, questionnaire, medication, allergies, conditions, diagnosis, observations.",
+    "additional": "patient_id: 03c5df71-2c83-aa6e-283e-2fbe6cb3dee9",
+    "output": "IÆm unable to provide a fully detailed patient summary across all categories due to current system limitationsùthe data system does not allow pulling all information by patient ID at once. HereÆs what I can summarize from previously retrieved information:
+
+- Encounters: The patient has had multiple wellness exams and visits for symptoms from 2012 through March 2025.
+- Conditions: Documented conditions include stress, severe anxiety (panic), social isolation, acute bronchitis, viral sinusitis, pharyngitis, victim of intimate partner abuse, and some social context findings (employment/education).
+- Allergies: No allergies have been recorded.
+- Medications: No medication data could be retrieved.
+- Questionnaires & Observations: No data available or accessible at this time.
+
+If you need further helpùsuch as a report using specific alternative queries, or if the data platform allows search by patient in a different wayùplease let me know.
+[{'text':'patient summary, encounters, conditions, allergies, medications, questionnaire, observations, diagnoses','label':'SUMMARY','category':'OVERVIEW','terminology':'N/A','code':'N/A'}]
+",
+    "expected_sql": "",
+    "expected_output": "",
+    "missleneous": ""
+  },
+  {
+    "input": "Show me all lab tests and results for the patient?",
+    "additional": "patient_id: 03c5df71-2c83-aa6e-283e-2fbe6cb3dee9",
+    "output": "",
+    "expected_sql": "",
+    "expected_output": ""
+  }
+]

@@ -1,0 +1,52 @@
+# RAG Evaluation
+ragas[embeddings]
+
+# External evaluation libraries (installed from GitHub)
+# git+https://github.com/facebookresearch/RAGEval.git  # RAG evaluation toolkit
+# git+https://github.com/McGill-NLP/elo-eval.git       # ELOEval: model ranking via human preferences
+# git+https://github.com/tuhinjubcse/HaluEval.git       # Hallucination detection
+# git+https://github.com/salesforce/factscore.git       # FactScore: factuality checker
+
+# Core deep learning libraries
+torch>=1.10.0
+transformers>=4.30.0
+sentencepiece
+sentence-transformers
+simcse
+textdistance
+tensorflow>=2.3.0,<2.12
+# universal-sentence-encoder
+
+# BERTScore
+bert-score>=0.3.13
+
+# BLEURT
+# bleurt>=0.0.2
+
+# MoverScore
+nltk>=3.6.0
+scikit-learn>=0.24.0
+requests
+pandas
+moverscore>=1.0.3
+
+# COMET
+sacrebleu>=2.0.0
+pytorch-lightning>=1.4.0,<2.0.0
+unbabel-comet>=1.1.1
+
+# Utility & NLP Tools
+textstat
+spacy>=3.0.0
+evaluate
+wandb
+
+# Miscellaneous
+tqdm
+# numpy
+
+
+
+pip install sentencepiece
+ pip install sentence-transformers
+ pip install nltk

@@ -1,0 +1,2 @@
+id,medication_statement_id,precondition_code,precondition_display,precondition_system,created_at
+precond_1,cdbd33f0-6cde-11db-9fe1-0800200c9a66-4002,56018004,Wheezing,SNOMED CT,2025-06-05 13:38:18.148076

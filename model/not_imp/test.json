@@ -1,0 +1,64 @@
+[{'text':'Well child visit','label':'PROCEDURE','category':'MEDICAL','terminology':'SNOMEDCT','code':'410620009','date':'1980-01-23'},
+    {'text':'General examination of patient','label':'PROCEDURE','category':'MEDICAL','terminology':'SNOMEDCT','code':'162673000','date':['1981-01-28','1991-02-13','1994-02-16','2008-12-24','2012-12-05','2014-12-17','2015-12-23','2016-12-28','2018-01-03','2019-01-09','2020-01-15','2021-01-20','2022-01-26','2023-02-01','2024-02-07','2025-02-12']},
+    {'text':'Encounter for symptom','label':'PROCEDURE','category':'MEDICAL','terminology':'SNOMEDCT','code':'185345009','date':['1986-08-29','2016-03-22','2016-08-24','2017-02-14','2019-01-02','2024-12-20']},
+    {'text':'Encounter for check up','label':'PROCEDURE','category':'MEDICAL','terminology':'SNOMEDCT','code':'185349003','date':['2011-01-19','2016-04-06','2016-04-13','2017-01-11','2020-01-29','2022-02-09','2023-02-15','2025-02-26']},
+    {'text':'Urgent care clinic','label':'ENVIRONMENT','category':'MEDICAL','terminology':'SNOMEDCT','code':'702927004','date':'2016-03-30'},{'text':'Encounter for problem','label':'PROCEDURE','category':'MEDICAL','terminology':'SNOMEDCT','code':'185347001','date':'2019-04-02'},
+    {'text':'Administration of vaccine to produce active immunity','label':'PROCEDURE','category':'MEDICAL','terminology':'SNOMEDCT','code':'33879002','date':['2021-11-03','2021-12-01']},
+    {'text':'Emergency room admission','label':'PROCEDURE','category':'MEDICAL','terminology':'SNOMEDCT','code':'50849002','date':'2024-07-06'}]',
+ 
+
+
+
+     [{'text':'Regular wellness exams (1980û2025), symptom and urgent care visits, ER admission (2024û07), vaccines, no questionnaires or allergies, medications (acetaminophen 2016, sodium fluoride, amoxicillin/clavulanate 2017, naproxen sodium active from 2019, ibuprofen 2024), chronic sinusitis, prediabetes, anemia, obesity, osteoarthritis, stress, drug misuse, gingivitis, social and behavioral conditions, labs with A1c 5.8û6.3%, BMI ~27.5, normal vital signs, pain, mental health screenings.','label':'SUMMARY_PROFILE','category':'PATIENT_SUMMARY'}]',
+
+
+
+     [{'text':'no laboratory or diagnostic test results available','label':'NEGATION','category':'LAB_RESULT'}]
+
+     [{'text':'Chronic sinusitis','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'155528009','date':'1986-08-29'},{'text':'Prediabetes','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'15777000','date':'1991-02-14'},{'text':'Anemia','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'271737000','date':'1994-02-17'},{'text':'Obesity','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'30554005','date':'1994-02-17'},{'text':'Stress','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'255395001','date':'2020-01-16'},{'text':'Osteoarthritis of the hand','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'201821005','date':'2019-04-03'},{'text':'Gingivitis and gingival disease','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'196354003','date':'2023'},{'text':'Drug misuse','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'228367002','date':'2025-02-13'},{'text':'risk activity involvement','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'267137000'},{'text':'higher education','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'266844001'},{'text':'history of intimate partner abuse','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'1345179009'},{'text':'criminal record','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'138166005'},{'text':'history of social isolation','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'160808004'},{'text':'employment details','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'364703007'},{'text':'bronchitis','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'32398004'},{'text':'sinusitis (viral/bacterial)','label':'DISEASE','category':'MEDICAL'},{'text':'medication review due','label':'PROCEDURE','category':'MEDICAL','terminology':'SNOMEDCT','code':'314529007'},{'text':'wrist sprain','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'70704007'}]
+[{'text':'lab tests','label':'LAB','category':'NO_DATA','terminology':'N/A','code':'N/A'}]
+
+
+
+[{'text':'patient summary, encounters, conditions, allergies, medications, questionnaire, observations, diagnoses','label':'SUMMARY','category':'OVERVIEW','terminology':'N/A','code':'N/A'}]
+
+
+
+[{'entity':'encounter','type':'Wellness','date':'2012-03-02','code':'162673000'},{'entity':'encounter','type':'Wellness','date':'2013-03-08','code':'162673000'},{'entity':'encounter','type':'Wellness','date':'2016-03-11','code':'162673000'},{'entity':'encounter','type':'Ambulatory','date':'2017-01-08','code':'185345009'},{'entity':'encounter','type':'Ambulatory','date':'2019-02-06','code':'185345009'},{'entity':'encounter','type':'Wellness','date':'2019-03-15','code':'162673000'},{'entity':'encounter','type':'Ambulatory','date':'2021-06-15','code':'185345009'},{'entity':'encounter','type':'Outpatient','date':'2021-06-25','code':'185349003'},{'entity':'encounter','type':'Ambulatory','date':'2021-12-07','code':'185345009'},{'entity':'encounter','type':'Wellness','date':'2022-03-18','code':'162673000'},{'entity':'encounter','type':'Wellness','date':'2025-03-21','code':'162673000'}]
+
+
+[{'text':'medication information','label':'OTHER','category':'NO_DATA','terminology':'N/A','code':'N/A'}]
+
+
+[{'text':'Stress (finding)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'404684003'},
+{'text':'Severe anxiety (panic) (finding)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'80583007'},
+{'text':'Social isolation (finding)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'64441002'},
+{'text':'Acute bronchitis (disorder)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'64572001'},
+{'text':'Acute viral pharyngitis (disorder)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'195662009'},
+{'text':'Viral sinusitis (disorder)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'444814009'},
+{'text':'Victim of intimate partner abuse (finding)','label':'DISEASE','category':'MEDICAL','terminology':'SNOMEDCT','code':'706893006'},
+{'text':'Medication review due (situation)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'314529007'},
+{'text':'Part-time employment (finding)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'138222003'},
+{'text':'Full-time employment (finding)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'138221005'},
+{'text':'Received higher education (finding)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'224302000'},
+{'text':'Not in labor force (finding)','label':'SIGN_SYMPTOM','category':'MEDICAL','terminology':'SNOMEDCT','code':'741062008'}
+
+
+[{'text':'no recorded allergies','label':'NEGATION','start':10,'end':30,'category':'MEDICAL','terminology':'SNOMEDCT','code':'137650007'}]
+
+
+
+
+
+[{'text':'no recorded allergies','label':'NEGATION','start':10,'end':30,'category':'MEDICAL','terminology':'SNOMEDCT','code':'137650007'}]
+
+
+
+
+
+[{'entity':'encounter','type':'Wellness','date':'2012-03-02','code':'162673000'},{'entity':'encounter','type':'Wellness','date':'2013-03-08','code':'162673000'},{'entity':'encounter','type':'Wellness','date':'2016-03-11','code':'162673000'},{'entity':'encounter','type':'Ambulatory','date':'2017-01-08','code':'185345009'},{'entity':'encounter','type':'Ambulatory','date':'2019-02-06','code':'185345009'},{'entity':'encounter','type':'Wellness','date':'2019-03-15','code':'162673000'},{'entity':'encounter','type':'Ambulatory','date':'2021-06-15','code':'185345009'},{'entity':'encounter','type':'Outpatient','date':'2021-06-25','code':'185349003'},{'entity':'encounter','type':'Ambulatory','date':'2021-12-07','code':'185345009'},{'entity':'encounter','type':'Wellness','date':'2022-03-18','code':'162673000'},{'entity':'encounter','type':'Wellness','date':'2025-03-21','code':'162673000'}]
+
+
+[{'text':'patient summary, encounters, conditions, allergies, medications, questionnaire, observations, diagnoses','label':'SUMMARY','category':'OVERVIEW','terminology':'N/A','code':'N/A'}]
+
+

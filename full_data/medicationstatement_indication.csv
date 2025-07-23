@@ -1,0 +1,3 @@
+id,medication_statement_id,indication_name,indication_code,indication_system,created_at
+ind_1,cdbd33f0-6cde-11db-9fe1-0800200c9a66-4000,Pneumonia,233604007,SNOMED CT,2025-06-05 13:38:18.148076
+ind_2,cdbd33f0-6cde-11db-9fe1-0800200c9a66-4002,Asthma,195967001,SNOMED CT,2025-06-05 13:38:18.148076

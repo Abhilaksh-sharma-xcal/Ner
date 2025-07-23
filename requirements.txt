@@ -47,6 +47,6 @@ tqdm
 
 
 
-pip install sentencepiece
- pip install sentence-transformers
- pip install nltk
+sentencepiece
+sentence-transformers
+nltk

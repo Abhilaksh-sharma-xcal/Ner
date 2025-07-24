@@ -50,3 +50,5 @@ tqdm
 sentencepiece
 sentence-transformers
 nltk
+
+pyConTextNLP

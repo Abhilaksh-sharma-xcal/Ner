@@ -2,6 +2,7 @@ import spacy
 import medspacy
 from medspacy.target_matcher import TargetRule
 import os
+import json
 import pandas as pd
 import pyConTextNLP.pyConText as pyConText
 import pyConTextNLP.itemData as itemData
@@ -61,13 +62,39 @@ target_matcher.add(target_rules)
 context = nlp.get_pipe("medspacy_context")
 context.add(context_rules)
 
-text = """
-he has no sign of Hives.
-if he has Hives allergy.
-"""
 
-doc = nlp(text)
-print("Extracted Entities:")
-print(doc.ents)
-for ent in doc.ents:
-    print(f"Entity: '{ent.text}', Label: '{ent.label_}', Family: '{ent._.is_family}', Hypothetical: '{ent._.is_hypothetical}', Historical: '{ent._.is_historical}', Negated: '{ent._.is_negated}'")
+
+import json
+
+with open(r"D:\xcaliber\study\data\Patients_in_json.json") as json_file:
+    json_data = json.load(json_file)
+    # print(json_data)
+
+full = [ ]
+
+for i in json_data:
+    json_object = {}
+    for key in i :
+        if i[key] == None:
+            i[key] = "None"
+        print(i[key])
+        # print(i[key])
+        key_annotated = str(key+"_annotated")
+        json_object = {
+            key : i[key],
+            key_annotated : str(nlp(i[key]))
+        }
+        
+    full.append(json_object)
+        # text = str(i[key])
+        # print(nlp(text))
+        # print(key)
+        
+final_file = "annotated_try_1.json"
+with open(final_file,"w") as out:
+    json.dump(full, out, indent=2)
+# doc = nlp(text)
+# print("Extracted Entities:")
+# print(doc.ents)
+# for ent in doc.ents:
+#     print(f"Entity: '{ent.text}', Label: '{ent.label_}', Family: '{ent._.is_family}', Hypothetical: '{ent._.is_hypothetical}', Historical: '{ent._.is_historical}', Negated: '{ent._.is_negated}'")

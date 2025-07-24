@@ -1,0 +1,21 @@
+# rules.yml
+
+- literal: "no evidence of"
+  category: "NEGATED_EXISTENCE"
+  pattern:  "no evidence of"
+  direction: "forward"
+
+- literal: "history of"
+  category: "HISTORICAL"
+  pattern:  "history of"
+  direction: "forward"
+
+- literal: "cancer"
+  category: "DISEASE"
+  pattern:  "cancer"
+  direction: "forward"
+
+- literal: "diabetes"
+  category: "DISEASE"
+  pattern:  "diabetes"
+  direction: "forward"

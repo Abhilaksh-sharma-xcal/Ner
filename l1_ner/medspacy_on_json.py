@@ -80,9 +80,15 @@ for i in json_data:
         print(i[key])
         # print(i[key])
         key_annotated = str(key+"_annotated")
+        doc = nlp(i[key])
+        out = ""
+        for ent in doc.ents:
+            out += f"Entity: '{ent.text}', Label: '{ent.label_}', Family: '{ent._.is_family}', Hypothetical: '{ent._.is_hypothetical}', Historical: '{ent._.is_historical}', Negated: '{ent._.is_negated}'"
+        
+        
         
         json_object[key] = i[key]
-        json_object[key_annotated] = str(nlp(i[key]))
+        json_object[key_annotated] = str(out)
 
         
     full.append(json_object)

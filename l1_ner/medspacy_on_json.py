@@ -75,20 +75,22 @@ full = [ ]
 for i in json_data:
     json_object = {}
     for key in i :
+        x = []
         if i[key] == None:
             i[key] = "None"
-        print(i[key])
-        # print(i[key])
         key_annotated = str(key+"_annotated")
         doc = nlp(i[key])
-        out = ""
+        
+        # out["Entity"]= []
+        # out["Label"]= []
         for ent in doc.ents:
-            out += f"Entity: '{ent.text}', Label: '{ent.label_}', Family: '{ent._.is_family}', Hypothetical: '{ent._.is_hypothetical}', Historical: '{ent._.is_historical}', Negated: '{ent._.is_negated}'"
-        
-        
+            out = {}
+            out["Entity"]= ent.text
+            out["Label"] = ent.label_
+            x.append(out)
         
         # json_object[key] = i[key]
-        json_object[key_annotated] = str(out)
+        json_object[key_annotated] = x
 
         
     full.append(json_object)
@@ -96,7 +98,7 @@ for i in json_data:
         # print(nlp(text))
         # print(key)
         
-final_file = "just_annotation.json"
+final_file = "x1.json"
 with open(final_file,"w") as out:
     json.dump(full, out, indent=2)
 # doc = nlp(text)

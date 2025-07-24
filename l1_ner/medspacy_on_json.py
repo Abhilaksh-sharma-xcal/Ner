@@ -80,10 +80,10 @@ for i in json_data:
         print(i[key])
         # print(i[key])
         key_annotated = str(key+"_annotated")
-        json_object = {
-            key : i[key],
-            key_annotated : str(nlp(i[key]))
-        }
+        
+        json_object[key] = i[key]
+        json_object[key_annotated] = str(nlp(i[key]))
+
         
     full.append(json_object)
         # text = str(i[key])

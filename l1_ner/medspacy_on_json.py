@@ -87,7 +87,7 @@ for i in json_data:
         
         
         
-        json_object[key] = i[key]
+        # json_object[key] = i[key]
         json_object[key_annotated] = str(out)
 
         
@@ -96,7 +96,7 @@ for i in json_data:
         # print(nlp(text))
         # print(key)
         
-final_file = "annotated_try_1.json"
+final_file = "just_annotation.json"
 with open(final_file,"w") as out:
     json.dump(full, out, indent=2)
 # doc = nlp(text)

@@ -4,8 +4,8 @@ from medspacy.target_matcher import TargetRule
 import os
 import json
 import pandas as pd
-import pyConTextNLP.pyConText as pyConText
-import pyConTextNLP.itemData as itemData
+# import pyConTextNLP.pyConText as pyConText
+# import pyConTextNLP.itemData as itemData
 from medspacy.context import ConTextRule
 
 target_rules = []
@@ -16,8 +16,9 @@ def entity(inp_path):
     for column_name in columns_to_use:
         if column_name in dataframe.columns:
             for term in dataframe[column_name].dropna().unique():
-                rule = TargetRule(literal=str(term), category=column_name.upper())
-                target_rules.append(rule)
+                if len(str(term)) > 2 or str(term)[0].isdigit():
+                    rule = TargetRule(literal=str(term), category=column_name.upper())
+                    target_rules.append(rule)
                 
     
     
@@ -59,14 +60,14 @@ nlp.add_pipe("medspacy_context")
 target_matcher = nlp.get_pipe("medspacy_target_matcher")
 target_matcher.add(target_rules)
 
-context = nlp.get_pipe("medspacy_context")
-context.add(context_rules)
+# context = nlp.get_pipe("medspacy_context")
+# context.add(context_rules)
 
 
 
 import json
 
-with open(r"D:\xcaliber\study\data\Patients_in_json.json") as json_file:
+with open(r"D:\xcaliber\study\data\patient_data_logs.json") as json_file:
     json_data = json.load(json_file)
     # print(json_data)
 
@@ -75,6 +76,10 @@ full = [ ]
 for i in json_data:
     json_object = {}
     for key in i :
+        print(key)
+        if key == "patient":
+            print("herer")
+            continue
         x = []
         if i[key] == None:
             i[key] = "None"

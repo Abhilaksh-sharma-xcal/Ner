@@ -6,6 +6,8 @@ import pandas as pd
 import pyConTextNLP.pyConText as pyConText
 import pyConTextNLP.itemData as itemData
 from medspacy.context import ConTextRule
+import re
+
 
 target_rules = []
 def entity(inp_path):
@@ -15,8 +17,9 @@ def entity(inp_path):
     for column_name in columns_to_use:
         if column_name in dataframe.columns:
             for term in dataframe[column_name].dropna().unique():
-                rule = TargetRule(literal=str(term), category=column_name.upper())
-                target_rules.append(rule)
+                if len(str(term)) > 2:  
+                    rule = TargetRule(literal=str(term), category=column_name.upper())
+                    target_rules.append(rule)
                 
     
     

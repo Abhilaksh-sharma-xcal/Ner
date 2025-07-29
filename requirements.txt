@@ -1,54 +1,81 @@
-# RAG Evaluation
-ragas[embeddings]
-
-# External evaluation libraries (installed from GitHub)
-# git+https://github.com/facebookresearch/RAGEval.git  # RAG evaluation toolkit
-# git+https://github.com/McGill-NLP/elo-eval.git       # ELOEval: model ranking via human preferences
-# git+https://github.com/tuhinjubcse/HaluEval.git       # Hallucination detection
-# git+https://github.com/salesforce/factscore.git       # FactScore: factuality checker
-
-# Core deep learning libraries
-torch>=1.10.0
-transformers>=4.30.0
-sentencepiece
-sentence-transformers
-simcse
-textdistance
-tensorflow>=2.3.0,<2.12
-# universal-sentence-encoder
-
-# BERTScore
-bert-score>=0.3.13
-
-# BLEURT
-# bleurt>=0.0.2
-
-# MoverScore
-nltk>=3.6.0
-scikit-learn>=0.24.0
-requests
-pandas
-moverscore>=1.0.3
-
-# COMET
-sacrebleu>=2.0.0
-pytorch-lightning>=1.4.0,<2.0.0
-unbabel-comet>=1.1.1
-
-# Utility & NLP Tools
-textstat
-spacy>=3.0.0
+aiohttp
+anyio
+blis
+catalogue
+charset-normalizer
+click
+cloudpathlib
+colorama
+confection
+cymem
+Cython
+dataclasses-json
+datasets
+debugpy
+decorator
+dill
+diskcache
+emoji
 evaluate
-wandb
-
-# Miscellaneous
-tqdm
-# numpy
-
-
-
-sentencepiece
-sentence-transformers
+filelock
+fsspec
+greenlet
+huggingface-hub
+ipykernel
+jedi
+Jinja2
+joblib
+jsonschema
+jupyter_client
+jupyter_core
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-text-splitters
+langcodes
+marshmallow
+matplotlib-inline
+medspacy
+multiprocess
+murmurhash
+networkx
 nltk
-
-pyConTextNLP
+numpy
+openai
+orjson
+packaging
+pandas
+pillow
+protobuf
+psutil
+pyarrow
+pydantic
+pydantic-settings
+PyYAML
+pyzmq
+ragas
+regex
+requests
+rich
+scikit-learn
+scipy
+sentence-transformers
+sentencepiece
+spacy
+SQLAlchemy
+stanza
+sympy
+tenacity
+thinc
+threadpoolctl
+tiktoken
+tokenizers
+torch
+tqdm
+traitlets
+transformers
+typer
+typing_extensions
+urllib3
+wasabi

@@ -1,0 +1,4 @@
+id,patient_id,substance,substance_code,substance_system,reaction,reaction_code,reaction_system,severity,severity_code,severity_system,status,status_code,status_system,onset_date,end_date,created_at
+allergy_1,1,Penicillin G benzathine,7982,RxNorm,Hives,247472004,SNOMED CT,Moderate to severe,371924009,SNOMED CT,Inactive,73425007,SNOMED CT,2007-05-01,2012-08-06,2025-06-05 13:38:18.148076
+allergy_2,1,Codeine,2670,RxNorm,Shortness of Breath,267036007,SNOMED CT,Moderate,6736007,SNOMED CT,Active,55561003,SNOMED CT,2006-05-01,,2025-06-05 13:38:18.148076
+allergy_3,1,Aspirin,1191,RxNorm,Hives,247472004,SNOMED CT,Mild to moderate,371923003,SNOMED CT,Active,55561003,SNOMED CT,2008-05-01,,2025-06-05 13:38:18.148076

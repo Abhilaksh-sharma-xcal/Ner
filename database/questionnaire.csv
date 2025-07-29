@@ -1,2 +1,0 @@
-id,patient_id,template_id,questionnaire_code,questionnaire_system,questionnaire_system_name,questionnaire_display,title,text_content,created_at
-questionnaire_1,1,1.3.6.1.4.1.19376.1.5.3.1.3.1,42349-1,2.16.840.1.113883.6.1,LOINC,REASON FOR REFERRAL,REASON FOR REFERRAL,"Patient with a history of moderate persistent asthma. Patient presented to with acute onset shortness of breath with fevers, chills, and cough productive of greenish sputum for the past 2 days.",2025-06-05 13:38:18.148076

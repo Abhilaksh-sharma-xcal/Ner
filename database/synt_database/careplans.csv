@@ -1,0 +1,16 @@
+id,start,stop,patient,encounter,code,description,reasoncode,reasondescription
+efbb0f96-9989-07b5-a21b-837f49053a2d,2005-05-08,,2593c08f-70dc-a77a-1de5-1e89004afee7,9b10dacd-415b-ab8c-f8e9-0dae73ca24ef,735985000,Diabetes self management plan (record artifact),714628002.0000,Prediabetes (finding)
+cd170cc1-a111-30e4-fda7-a615a4bd5568,2018-07-03,2018-07-27,2593c08f-70dc-a77a-1de5-1e89004afee7,50bafcf6-070e-6040-542f-2b354d13f80a,225358003,Wound care (regime/therapy),283371005.0000,Laceration of forearm (disorder)
+0205c26c-c1ba-edd8-2538-96fcc628835d,2011-05-13,2011-12-16,5de60ae6-b402-744d-acfb-bd7612b6a5f1,249796af-1ddc-bea1-7206-6343c7107874,134435003,Routine antenatal care (regime/therapy),,
+b60f3ea5-9be8-78e5-604f-a701e1ac823e,1973-06-06,,871b9c31-5db3-775f-1886-2fbf1ce05934,114200a0-0948-413c-6f8d-c9223d69783e,718361005,Weight management program (regime/therapy),,
+2cadbfdc-f2f5-b549-3e4f-6126c069fdad,1991-07-10,,871b9c31-5db3-775f-1886-2fbf1ce05934,62e0e83c-3498-d7d2-91ce-9edc2b3f6d3a,735985000,Diabetes self management plan (record artifact),714628002.0000,Prediabetes (finding)
+17c64702-d342-f2c1-47e5-ac222d94471f,2022-08-26,2022-09-13,5de60ae6-b402-744d-acfb-bd7612b6a5f1,16b8bc28-026a-fca3-b6a5-ade45628a322,225358003,Wound care (regime/therapy),284551006.0000,Laceration of foot (disorder)
+b7332890-7f4d-26f5-b065-3c31bb62ac6b,2023-02-17,2023-09-15,5de60ae6-b402-744d-acfb-bd7612b6a5f1,7621c755-632d-13da-524a-06510428efb9,134435003,Routine antenatal care (regime/therapy),,
+8893aace-4e05-33ff-e8c6-160a9ca058ff,2024-12-25,2025-01-08,871b9c31-5db3-775f-1886-2fbf1ce05934,d855bee6-7b25-c4dd-5792-6825e9440043,773513001,Physiotherapy care plan (record artifact),44465007.0000,Sprain of ankle (disorder)
+1f6714f7-a6df-394f-aa49-d3681b2a048e,1993-08-07,,cc1914d8-c15d-144f-ef36-c222981a6720,29bc7b57-89c3-44f3-ca6c-417d669a9023,384758001,Self-care interventions (procedure),,
+1c9686ee-2a06-11ae-479a-d9d77e656489,1994-04-26,,cc1914d8-c15d-144f-ef36-c222981a6720,1984b598-49aa-c38c-fdab-4ab670a88489,699728000,Asthma self management (regime/therapy),233678006.0000,Childhood asthma (disorder)
+09f0d91e-592a-2206-73e4-72ff0b35542d,2011-08-22,2011-09-25,cc1914d8-c15d-144f-ef36-c222981a6720,85fc43df-eeb0-79eb-e150-722b5f42c292,773513001,Physiotherapy care plan (record artifact),70704007.0000,Sprain of wrist (disorder)
+e2752330-9845-808d-102b-fa9865e2f9ea,2015-07-01,2016-01-27,cc1914d8-c15d-144f-ef36-c222981a6720,964e3115-5819-7d80-8f18-540bef2b0ec6,134435003,Routine antenatal care (regime/therapy),,
+58431b2a-e1c3-4a4a-a3b0-bf0f52a34269,2020-08-29,2020-08-29,cc1914d8-c15d-144f-ef36-c222981a6720,9ae28847-c3dd-26f0-8414-3f4c292a18b5,736376001,Infectious disease care plan (record artifact),,
+f7dbe4f4-ae50-8ca3-3d27-c58ec6fc348f,2020-08-29,2020-10-03,cc1914d8-c15d-144f-ef36-c222981a6720,9ae28847-c3dd-26f0-8414-3f4c292a18b5,736376001,Infectious disease care plan (record artifact),,
+5370b533-682b-053e-9abb-5de3189dbf68,2021-04-28,2021-12-01,cc1914d8-c15d-144f-ef36-c222981a6720,f698ef8f-f4c2-f099-02e7-2949a35ddbb5,134435003,Routine antenatal care (regime/therapy),,

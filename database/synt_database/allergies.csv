@@ -1,0 +1,11 @@
+start,stop,patient,encounter,code,system,description,type,category,reaction1,description1,severity1,reaction2,description2,severity2
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,288328004,SNOMED-CT,Bee venom (substance),allergy,environment,,,,,,
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,84489001,SNOMED-CT,Mold (organism),allergy,environment,,,,,,
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,260147004,SNOMED-CT,House dust mite (organism),allergy,environment,,,,,,
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,264287008,SNOMED-CT,Animal dander (substance),allergy,environment,878820003.0000,Rhinoconjunctivitis (disorder),MODERATE,,,
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,256277009,SNOMED-CT,Grass pollen (substance),allergy,environment,,,,,,
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,782576004,SNOMED-CT,Tree pollen (substance),allergy,environment,,,,,,
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,29046,RxNorm,Lisinopril,intolerance,medication,,,,,,
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,10831,RxNorm,Sulfamethoxazole / Trimethoprim,allergy,medication,271807003.0000,Eruption of skin (disorder),MODERATE,,,
+1993-08-22,,cc1914d8-c15d-144f-ef36-c222981a6720,ff787518-295c-75f7-c261-cc08eb0cc1b1,412071004,SNOMED-CT,Wheat (substance),allergy,food,271807003.0000,Eruption of skin (disorder),MODERATE,,,

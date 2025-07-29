@@ -1,0 +1,2 @@
+id,patient_id,template_id,report_type,status,report_code,report_display,report_system,report_system_name,effective_date,created_at
+cbc-panel-9000,1,2.16.840.1.113883.10.20.22.4.1,DiagnosticReport,completed,43789009,CBC WO DIFFERENTIAL,2.16.840.1.113883.6.96,SNOMED CT,2012-08-10,2025-06-05 13:38:18.148076

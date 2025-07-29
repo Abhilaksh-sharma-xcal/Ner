@@ -1,0 +1,11 @@
+id,name,ownership,address,city,state_headquartered,zip,phone,amount_covered,amount_uncovered,revenue,covered_encounters,uncovered_encounters,covered_medications,uncovered_medications,covered_procedures,uncovered_procedures,covered_immunizations,uncovered_immunizations,unique_customers,qols_avg,member_months
+a735bf55-83e9-331a-899d-a82a60b9f60c,Medicare,GOVERNMENT,,,,,,21848.6400,699.0000,6463.8000,11,0,3,0,55,0,5,0,1,0.7477,48
+df166300-5a78-3502-a46a-832842197811,Medicaid,GOVERNMENT,,,,,,0.0000,0.0000,0.0000,0,0,0,0,0,0,0,0,0,,0
+d18ef2e6-ef40-324c-be54-34a5ee865625,Dual Eligible,GOVERNMENT,,,,,,0.0000,0.0000,0.0000,0,0,0,0,0,0,0,0,0,,0
+26aab0cd-6aba-3e1b-ac5b-05c8867e762c,Humana,PRIVATE,,,,,,252396.1000,206645.6300,138510.0000,119,0,28,0,266,0,48,0,1,0.9703,408
+b046940f-1664-3047-bca7-dfa76be352a4,Blue Cross Blue Shield,PRIVATE,,,,,,286564.9300,148278.1400,189459.0000,134,0,107,0,299,0,62,0,2,0.8838,444
+d31fccc3-1767-390d-966a-22a5156f4219,UnitedHealthcare,PRIVATE,,,,,,0.0000,0.0000,0.0000,0,0,0,0,0,0,0,0,0,,0
+0133f751-9229-3cfd-815f-b6d4979bdd6a,Aetna,PRIVATE,,,,,,0.0000,10257.2800,16906.8000,5,0,0,0,22,0,5,0,1,0.9970,60
+8fa6c185-e44e-3e34-8bd8-39be8694f4ce,Cigna Health,PRIVATE,,,,,,3148.6100,51769.6900,46317.8400,33,0,7,0,102,0,22,0,2,0.9964,228
+734afbd6-4794-363b-9bc0-6a3981533ed5,Anthem,PRIVATE,,,,,,12244.4600,9841.4700,57059.1000,12,0,3,0,35,0,7,0,1,0.9101,144
+e03e23c9-4df1-3eb6-a62d-f70f02301496,NO_INSURANCE,NO_INSURANCE,,,,,,0.0000,177458.1900,0.0000,0,125,0,31,0,290,0,72,2,0.9982,816
